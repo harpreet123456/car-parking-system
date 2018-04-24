@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="16dp"
+    android:gravity="center_horizontal"
+    android:orientation="vertical"
+    tools:context="com.example.macstudent.parkingsystem.LoginActivity">
+
+
+
+    <TextView
+
+        android:layout_width="92dp"
+        android:layout_height="wrap_content"
+        android:text="Login"
+        android:textColor="@color/colorPrimaryDark"
+        android:textSize="30sp"
+        android:textStyle="bold" />
+
+    <TextView
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Username" />
+
+    <EditText
+        android:id="@+id/editUsername"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter user name"
+        android:inputType="textPersonName" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Password" />
+
+
+    <EditText
+        android:id="@+id/editPassword"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPassword" />
+
+    <CheckBox
+        android:id="@+id/ChkRembrMe"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Remember Me" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal">
+
+        <Button
+            android:id="@+id/btnlogIn"
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="LOGIN" />
+
+        <Button
+            android:id="@+id/btncreate"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="CREATE a NEW ACCOUNT" />
+
+
+    </LinearLayout>
+</LinearLayout>

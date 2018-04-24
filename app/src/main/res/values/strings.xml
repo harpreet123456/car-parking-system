@@ -1,0 +1,48 @@
+<resources>
+    <string name="app_name">ParkingSystem</string>
+    <string name="enter_user_name">Enter User Name</string>
+    <string name="user_name">User Name</string>
+    <string name="title_activity_home">HomeActivity</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+
+    <string-array name="color_arrays">
+        <item>White</item>
+        <item>Black</item>
+        <item>Silver</item>
+        <item>Red</item>
+        <item>Green</item>
+        <item>Yellow</item>
+        <item>Metallic silver</item>
+        <item>Golden</item>
+    </string-array>
+
+    <string-array name="lane_arrays">
+        <item>Lane A</item>
+        <item>Lane B</item>
+        <item>Lane C</item>
+        <item>Lane D</item>
+        <item>Lane E</item>
+    </string-array>
+
+    <string-array name="Parking_arrays">
+        <item>P1</item>
+        <item>P2</item>
+        <item>P3</item>
+        <item>P4</item>
+        <item>P5</item>
+    </string-array>
+
+    <string-array name="payment_arrays">
+        <item>Credit card</item>
+        <item>Master card</item>
+        <item>Visa card</item>
+        <item>Debit card</item>
+    </string-array>
+    <string name="title_activity_splash">SplashActivity</string>
+    <string name="dummy_button">Dummy Button</string>
+    <string name="dummy_content">DUMMY\nCONTENT</string>
+</resources>

@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    android:layout_height="match_parent"
+ xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_margin="16dp"
+    tools:context="com.example.macstudent.parkingsystem.AddTicketActivity">
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/edtVehicleno"
+        android:ems="10"
+        android:hint="Enter Vehicle number"
+        android:inputType="textPersonName"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/edtVehiclebrand"
+        android:ems="10"
+        android:hint="Enter Vehicle Brand"
+        android:inputType="textPersonName"/>
+
+    <Spinner
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:id="@+id/Spincolor"
+        android:entries="@array/color_arrays"
+        android:layout_marginBottom="5dp"
+
+        android:layout_marginTop="5dp"
+
+
+        android:spinnerMode="dialog"/>
+
+    <RadioGroup
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:id="@+id/rgtimings">
+
+        <RadioButton
+            android:id="@+id/rbt1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="1/2Hr"
+            android:checked="true"/>
+
+        <RadioButton
+            android:id="@+id/rbt2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="1Hr" />
+
+        <RadioButton
+            android:id="@+id/rbt3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="2Hr"
+           />
+
+        <RadioButton
+            android:id="@+id/rbt4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="3Hr"
+            />
+
+        <RadioButton
+            android:id="@+id/rbt5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Day Ends"
+            />
+
+        <TextView
+            android:id="@+id/textamount"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="TextView" />
+
+
+    </RadioGroup>
+
+    <Spinner
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:id="@+id/Spinlane"
+        android:layout_marginBottom="5dp"
+        android:entries="@array/lane_arrays"
+        android:layout_marginTop="5dp"
+
+
+        android:spinnerMode="dialog"/>
+
+
+    <Spinner
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:id="@+id/Spinparking"
+        android:layout_marginBottom="5dp"
+        android:entries="@array/Parking_arrays"
+        android:layout_marginTop="5dp"
+
+
+        android:spinnerMode="dialog"/>
+
+    <Spinner
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:id="@+id/Spinpayment"
+        android:layout_marginBottom="5dp"
+        android:entries="@array/payment_arrays"
+        android:layout_marginTop="5dp"
+
+
+        android:spinnerMode="dialog"/>
+
+<ImageButton
+    android:id="@+id/imgbtnSave"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    app:srcCompat="@android:drawable/btn_star"/>
+
+</LinearLayout>
+</ScrollView>
